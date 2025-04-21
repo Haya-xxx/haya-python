@@ -19,4 +19,11 @@ def power_method_simple():
     eigenvalue = (A[0][0]*x[0] + A[0][1]*x[1]) / x[0]
     print("Eigenvalue:", eigenvalue)
 
+def factorial(n):
+    result = 1
+    for i in range(2, n+1):
+        result *= i
+    return result
+
 power_method_simple()
+print("Factorial of 5:", factorial(5))
