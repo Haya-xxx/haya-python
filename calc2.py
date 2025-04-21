@@ -27,3 +27,14 @@ def factorial(n):
 
 power_method_simple()
 print("Factorial of 5:", factorial(5))
+
+def absolute(num_1):
+    if num_1 < 0:
+        return -num_1
+    else:
+        return num_1
+
+
+print(absolute(-10)) 
+print(absolute(7))    
+
