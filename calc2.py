@@ -38,3 +38,13 @@ def absolute(num_1):
 print(absolute(-10)) 
 print(absolute(7))    
 
+def bitwise_or(a, b):
+    return a | b
+
+# تجربة
+num1 = 6   # 0110
+num2 = 3   # 0011
+
+result = bitwise_or(num1, num2)  # الناتج بيكون 0111 = 7
+
+print("Bitwise OR:", result)
